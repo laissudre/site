@@ -1,1 +1,293 @@
-# laissudrepsicologa.github.io
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laís Sudré Campos | Psicóloga</title>
+<meta name="description" content="Psicoterapia afirmativa para pessoas LGBTQIA+. Atendimento online para adultos que buscam compreender sua história, relações e identidade.">
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--primary:#3D5A73;
+--accent:#E08644;
+--light:#f5f7f9;
+--text:#333;
+}
+
+*{box-sizing:border-box}
+
+body{
+margin:0;
+font-family:'Open Sans',sans-serif;
+color:var(--text);
+line-height:1.7;
+background:white;
+}
+
+header{
+background:var(--primary);
+color:white;
+padding:90px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:44px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.nav{
+position:sticky;
+top:0;
+background:white;
+border-bottom:1px solid #eee;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:10;
+}
+
+.nav a{
+text-decoration:none;
+color:var(--primary);
+margin-left:20px;
+font-weight:600;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+h2{
+color:var(--primary);
+margin-bottom:20px;
+font-size:32px;
+}
+
+p{
+max-width:750px;
+}
+
+.btn{
+background:var(--accent);
+color:white;
+padding:15px 30px;
+border-radius:6px;
+text-decoration:none;
+display:inline-block;
+margin-top:20px;
+font-weight:600;
+}
+
+.section-light{
+background:var(--light);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.quote{
+font-size:20px;
+font-style:italic;
+max-width:800px;
+}
+
+.faq-item{
+margin-bottom:25px;
+}
+
+footer{
+background:var(--primary);
+color:white;
+padding:50px 20px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="nav">
+<div><strong>Laís Sudré</strong></div>
+<div>
+<a href="#sobre">Sobre</a>
+<a href="#lgbt">Psicoterapia LGBTQIA+</a>
+<a href="#pesquisa">Pesquisa</a>
+<a href="#faq">FAQ</a>
+<a href="#contato">Agendar</a>
+</div>
+</div>
+
+<header>
+
+<img src="foto-instagram.jpg" alt="Laís Sudré Psicóloga" 
+style="
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+">
+
+<h1>Laís Sudré Campos</h1>
+
+<p style="font-size:18px;">
+Psicóloga | Psicoterapia LGBTQIA+
+</p>
+
+<p style="margin-top:10px;">
+<a href="https://instagram.com/laissudre.psi" target="_blank" 
+style="
+color:white;
+font-weight:600;
+text-decoration:none;
+border-bottom:2px solid rgba(255,255,255,0.6);
+padding-bottom:2px;
+">
+@laissudre.psi
+</a>
+</p>
+
+<p>
+Um espaço de escuta, reflexão e elaboração das experiências relacionadas à identidade, relações e história de vida.
+</p>
+
+<a class="btn" href="https://wa.me/5527988322789">
+Agendar sessão
+</a>
+
+</header>
+
+<section class="container" id="sobre">
+<h2>Sobre</h2>
+<p>
+Sou psicóloga clínica e mestre em Psicologia pela Universidade Federal do Espírito Santo (UFES). Minha atuação clínica e acadêmica tem se dedicado à compreensão das experiências de pessoas LGBTQIA+, especialmente no que diz respeito às relações familiares, ao apoio social e ao bem‑estar psicológico.
+</p>
+<p>
+Na clínica, busco oferecer um espaço ético e acolhedor, onde cada pessoa possa falar livremente sobre suas experiências, afetos e conflitos.
+</p>
+<p>
+Além da prática clínica, também atuei como professora universitária na formação de estudantes de Psicologia, experiência que fortaleceu meu compromisso com a reflexão crítica, a ética profissional e a produção de conhecimento na área da saúde mental e da diversidade.
+</p>
+</section>
+
+<section class="container section-light" id="lgbt">
+<h2>Psicoterapia afirmativa LGBTQIA+</h2>
+<p>
+Pessoas LGBTQIA+ frequentemente enfrentam desafios específicos ao longo da vida, como experiências de preconceito, conflitos familiares, dificuldades em processos de revelação da orientação sexual ou identidade de gênero e impactos psicológicos da discriminação.
+</p>
+<p>
+A psicoterapia pode ser um espaço importante para compreender essas experiências e construir novas formas de viver relações, afetos e projetos de vida.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>Identidade e sexualidade</h3>
+<p>Processos de construção da identidade e autocompreensão.</p>
+</div>
+
+<div class="card">
+<h3>Coming out</h3>
+<p>Processos de revelação da orientação sexual ou identidade de gênero.</p>
+</div>
+
+<div class="card">
+<h3>Família</h3>
+<p>Conflitos familiares e impactos da LGBTfobia.</p>
+</div>
+
+<div class="card">
+<h3>Relacionamentos</h3>
+<p>Questões afetivas e dinâmicas relacionais.</p>
+</div>
+
+</div>
+</section>
+
+<section class="container" id="pesquisa">
+<h2>Pesquisa e produção científica</h2>
+<p>
+Minha pesquisa acadêmica tem investigado fatores psicossociais associados ao bem‑estar de pessoas LGBTQIA+.
+</p>
+
+<p>
+<strong>Campos, L. S.</strong> (2015). O bem‑estar de homossexuais: associações com o apoio social familiar, resiliência, valores e religiosidade. Dissertação de Mestrado – Universidade Federal do Espírito Santo.
+</p>
+
+<p>
+<strong>Campos, L. S.; Guerra, V. M.</strong> (2016). O ajustamento familiar: associações entre apoio social familiar e o bem‑estar de homossexuais. Psicologia Revista.
+</p>
+</section>
+
+<section class="container section-light">
+<h2>Atendimento</h2>
+<p>
+As sessões são realizadas online, com duração média de 50 minutos.
+</p>
+<p>
+O atendimento online permite acompanhar pessoas que vivem em diferentes cidades e países, oferecendo flexibilidade e privacidade.
+</p>
+<a class="btn" href="https://wa.me/5527988322789">Agendar sessão</a>
+</section>
+
+<section class="container" id="faq">
+<h2>Perguntas frequentes</h2>
+
+<div class="faq-item">
+<strong>Quanto dura a sessão?</strong>
+<p>As sessões têm duração média de 50 minutos.</p>
+</div>
+
+<div class="faq-item">
+<strong>A terapia online funciona?</strong>
+<p>Sim. Estudos mostram que a psicoterapia online pode ter eficácia semelhante ao atendimento presencial.</p>
+</div>
+
+<div class="faq-item">
+<strong>Qual a frequência das sessões?</strong>
+<p>Geralmente semanal, podendo variar de acordo com cada processo terapêutico.</p>
+</div>
+
+</section>
+
+<footer id="contato">
+
+<p><strong>Laís Sudré Campos</strong></p>
+<p>Psicóloga | Atendimento online</p>
+<p>CRP 16/4145</p>
+<p>
+Instagram profissional: <a href="https://instagram.com/laissudre.psi" target="_blank" style="color:white;text-decoration:underline">@laissudre.psi</a>
+</p>
+
+<a class="btn" href="https://wa.me/5527988322789">Agendar sessão</a>
+
+</footer>
+
+</body>
+</html>
